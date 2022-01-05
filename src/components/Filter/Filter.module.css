@@ -1,0 +1,36 @@
+.container{
+    border-radius: 100px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid rgba(175, 182, 198, .5);
+
+}
+
+.filterContent{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-left: 5px;
+    height: 21px;
+}
+
+.title{
+    margin: 0;
+}
+
+.icon{
+    padding: 5px;
+}
+
+.dropdownContent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.container:hover .dropdownContent {
+    display: block;
+}

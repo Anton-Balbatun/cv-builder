@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap:12px;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+}
+
+.firstCard{
+    width: 227px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEF7FC;
+    border: dashed  #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 12px;
+}

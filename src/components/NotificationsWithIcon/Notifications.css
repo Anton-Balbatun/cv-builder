@@ -1,0 +1,18 @@
+.listtransition{
+    position: absolute;
+    top: 0;
+    background-color: green;
+    height: 100%;
+    width: 300px;
+    left: -250px;
+    animation: 0.5s linear 0s forwards transition;
+}
+.icon{
+    cursor: pointer;
+}
+
+@keyframes transition {
+    0% { margin-left: 200px; }
+    50% { margin-left: 300px;  }
+    100% { margin-left: 365px;     z-index: 1 }
+}

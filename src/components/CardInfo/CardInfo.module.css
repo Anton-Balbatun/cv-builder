@@ -1,0 +1,53 @@
+.container{
+    width: 227px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 0.1px solid #EEF0F6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 5px;
+}
+.title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #1E212A;
+}
+
+.default{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #00A0EC;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+}
+
+.dateText{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 9.5px;
+    display: flex;
+    align-items: center;
+    color: #AFB6C6;
+}
+
+.button{
+    background: #00A0EC;
+    border-radius: 10px;
+    border: 0;
+    justify-self: end ;
+}
